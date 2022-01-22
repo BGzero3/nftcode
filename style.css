@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-color: hsl(216, 50%, 16%);
+}
+h2{
+  color: white;
+  padding-bottom: 1em;
+}
+p{
+  color:hsl(215, 51%, 70%);
+}
+.prism{
+color:hsl(178, 100%, 50%);
+}
+span{
+  color: white;
+}
+.clocks{
+   color:hsl(215, 51%, 70%);
+}
+ul li{
+  text-decoration: none;
+  list-style: none;
+}
+li{
+  margin-right: 4em;
+  padding-left: 2em;
+  padding-left: 2em;
+}
+.items{
+  width: 100%;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+hr{
+  margin-right: 2em;
+  margin-left: 2em;
+  width: 80%;
+  color:gray;
+}
+.rule{
+  padding-top: 1em;
+}
+
+.avatar{
+  border-style: solid;
+  border-radius: 50%;
+  border-color: white;
+  max-width: 100%;
+  max-height: 100%;
+}
+.guy{
+  margin: 1em 1em;
+  height: 40px;
+  width: 40px;
+}
+.ava{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card{
+  background-color:hsl(216, 50%, 16%);
+  box-shadow: 0 4px 8px 0;
+  width: 40%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 5px;
+}
+.equil{
+  width: 100%;
+  border-radius: 1px;
+  padding: 1em  ;
+}
+.text{
+  padding: 1em;
+}
